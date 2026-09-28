@@ -56,7 +56,7 @@ function log(...a) { process.stdout.write(a.join(' ') + '\n'); }
  * 设备号。
  *
  * 它就**藏在 storage.json 的键名里**：`iCubeAuthInfo://icube-dc:<deviceId>`，
- * 值与 `state.vscdb` 里 `getCommonApiParams().did` 一致（本机 3876219458684601）。
+ * 值与 `state.vscdb` 里 `getCommonApiParams().did` 一致（形如 16 位数字）。
  *
  * 为什么必须带出来：Trae 的**写接口**（签到 claim、以及日后可能加的其它领取类接口）
  * 会校验 `x-device-id`，缺失时回 `9004 The submitted order parameters are incorrect`；

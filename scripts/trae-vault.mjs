@@ -208,7 +208,7 @@ function cmdSelftest() {
     'hello',
     '{"a":1}',
     '中文与符号 ✓ — “引号”',
-    JSON.stringify({ app_version: '0.1.66', version_code: 1227681842690, device_id: '3876219458684601', plugin_channel: 'solo', is_solo_mode: true, enable_llm_utils_cloud: true, is_evaluation: false, user_timezone: 'Asia/Shanghai', scope: 'marscode' }),
+    JSON.stringify({ app_version: '0.1.66', version_code: 1227681842690, device_id: '1234567890123456', plugin_channel: 'solo', is_solo_mode: true, enable_llm_utils_cloud: true, is_evaluation: false, user_timezone: 'Asia/Shanghai', scope: 'marscode' }),
     'x'.repeat(4096),
   ];
   let ok = true;
